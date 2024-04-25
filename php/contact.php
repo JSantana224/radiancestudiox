@@ -37,8 +37,8 @@ if(trim($name) == '') {
 // Enter the email address that you want to emails to be sent to.
 // Example $address = "joe.doe@yourdomain.com";
 
-//$address = "example@themeforest.net";
-$address = "myemail@gmail.com";
+//$address = "radiancestudiox@gmail.com";
+$address = "radiancestudiox@gmail.com";
 
 
 // Configuration option.
