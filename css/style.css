@@ -2845,7 +2845,7 @@ section.single-content-section {
   background-color: #2f2f2f;
   color: #fff;
   padding: 13px 5px;
-  border-radius: 0.375rem;
+  border-radius: 0px;
 }
 /*------ Blog ------------------------------------------------*/
 .post.fw-post h2 {
