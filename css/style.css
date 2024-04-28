@@ -226,7 +226,7 @@ blockquote p {
 	z-index:11;
 }
 .logo-holder img {
-	height:22px;
+	height:100px;
 	width:auto;
 }
 .search-button {
@@ -3457,8 +3457,8 @@ section.single-content-section {
     padding: 0 0 90px 0;
 }
 .logo-holder {
-    left: 200px;
-    top: 366px;
+    left: 20px;
+    top: 36px;
 }
 .bottom-panel {
 	padding-left:30px;
