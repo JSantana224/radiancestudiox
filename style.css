@@ -221,7 +221,7 @@ blockquote p {
 }
 .logo-holder {
 	position: absolute;
-	left:80px;
+	left:50px;
 	top:30px;
 	z-index:11;
 }
