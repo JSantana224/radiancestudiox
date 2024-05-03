@@ -221,12 +221,12 @@ blockquote p {
 }
 .logo-holder {
 	position: absolute;
-	left:80px;
-	top:30px;
+	left:120px;
+	top:17px;
 	z-index:11;
 }
 .logo-holder img {
-	height:100px;
+	height:65px;
 	width:auto;
 }
 .search-button {
