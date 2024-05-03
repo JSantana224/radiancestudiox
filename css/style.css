@@ -2822,6 +2822,8 @@ section.single-content-section {
   border-radius: 0.375rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
+  font-family: 'Ek Mukta', sans-serif;
+  text-transform:uppercase;	
 }
 
 .form-input::placeholder,
