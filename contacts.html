@@ -169,37 +169,19 @@
                             <div class="container small-container">
                                 <div class="section-title fl-wrap">
                                     <h3>Get In Touch</h3>
-                                    <h4>You are a few steps way.</h4>
+                                    <h4>Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa</h4>
                                     <div class="section-number">03.</div>
                                 </div>
                                 <div class="column-wrapper_item fl-wrap">
                                     <div class="column-wrapper_text fl-wrap">
                                         <div id="contact-form" class="fl-wrap">
                                             <div id="message"></div>
-                                            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                                            <form  class="custom-form" action="php/contact.php" name="contactform" id="contactform">
                                                 <fieldset>
-                                                    <input type="hidden" name="access_key" value="41987379-46fe-4cd9-9758-4609b15651d8" />
-                                                    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
-                                                    <input type="hidden" name="from_name" value="My Website" />
-                                                    <div class="form-group-container">
-     						    <div class="form-group">
-        <label for="name" class="form-label">Name</label>
-        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
-      </div>
-      <div class="form-group">
-        <label for="email" class="form-label">Email</label>
-        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
-      </div>
-      <div class="form-group">
-        <label for="phone" class="form-label">Phone</label>
-        <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
-      </div>
-      <div class="form-group">
-        <label for="message" class="form-label">Message</label>
-        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
-      </div>
-    </div>
-    <button class="form-submit" type="submit">Send Message</button>
+                                                    <input type="text" name="name" id="name" placeholder="Your Name *" value=""/>
+                                                    <input type="text"  name="email" id="email" placeholder="Email Address *" value=""/>
+                                                    <textarea name="comments"  id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
+                                                    <button class="btn float-btn flat-btn color-bg" id="submit">Send Message </button>
                                                 </fieldset>
                                             </form>
                                         </div>
