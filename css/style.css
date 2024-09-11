@@ -2764,10 +2764,12 @@ section.single-content-section {
 	text-transform: none;
 }
 .map-container {
-	float:left;
-	width:100%;
-	position:relative;
-	overflow:hidden;
+         width: 80%;
+         height: 400px;
+         margin: 20px 0;
+         /* Add a border and shadow to the container */
+         border: 1px solid gray;
+         box-shadow: 2px 2px 5px #ccc;
 }
 #singleMap    {
 	width:100%;
