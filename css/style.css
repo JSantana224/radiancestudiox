@@ -2837,7 +2837,7 @@ section.single-content-section {
 
 .form-input:focus-visible,
 .form-textarea:focus-visible {
-  outline: 2px solid #2563eb;
+  outline: 2px solid #b59124;
   outline-offset: 2px;
 }
 
@@ -2851,7 +2851,7 @@ section.single-content-section {
   background-color: #b59124;
   color: #fff;
   padding: 13px 5px;
-  border-radius: 0.375rem;
+  border-radius: 0rem;
 }
 #message {
 	text-align:left;
