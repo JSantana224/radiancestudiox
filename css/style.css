@@ -2788,6 +2788,7 @@ section.single-content-section {
   margin-left: auto;
   margin-right: auto;
   padding: 3rem 1rem;
+  font-family: 'Playfair+Display', serif;
 }
 
 .contact-intro > * + * {
@@ -2797,7 +2798,7 @@ section.single-content-section {
 .contact-title {
   font-size: 1.875rem;
   line-height: 2.25rem;
-  font-weight: 700;
+  font-weight: 700;	
 }
 .contact-description {
   color: rgb(107 114 128);
@@ -2853,6 +2854,7 @@ section.single-content-section {
   color: #fff;
   padding: 13px 5px;
   border-radius: 0rem;
+  font-family: 'Playfair+Display', serif;
 }
 #message {
 	text-align:left;
@@ -2864,6 +2866,7 @@ section.single-content-section {
 #message h3 {
 	font-size:16px;
 	padding-bottom:10px;
+	font-family: 'Playfair+Display', serif;
  
 }
 #message p strong {
