@@ -2825,9 +2825,10 @@ section.single-content-section {
   display: flex;
   height: 2.5rem;
   width: 100%;
-  border-radius: 0.375rem;
+  border-radius: 0rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
+  font-family: 'Playfair+Display', serif;
 }
 
 .form-input::placeholder,
@@ -2837,7 +2838,7 @@ section.single-content-section {
 
 .form-input:focus-visible,
 .form-textarea:focus-visible {
-  outline: 2px solid #b59124;
+  outline: 2px solid #42454d;
   outline-offset: 2px;
 }
 
@@ -2848,7 +2849,7 @@ section.single-content-section {
 .form-submit {
   width: 100%;
   margin-top: 1.2rem;
-  background-color: #b59124;
+  background-color: #42454d;
   color: #fff;
   padding: 13px 5px;
   border-radius: 0rem;
