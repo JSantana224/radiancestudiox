@@ -832,7 +832,7 @@
      //   mailchimp------------------
      $("#subscribe").ajaxChimp({
          language: "eng",
-         url: "https://gmail.us1.list-manage.com/subscribe/post?u=1fe818378d5c129b210719d80&amp;id=a2792f681b"
+         url: "https://script.google.com/macros/s/AKfycbwHZKH2XeTlrpVYXsHC8aHXY_g2sHmpocS9u9SmNvp91BuIX97DLD_DSTn92mJZyIB0/execb"
      });
      $.ajaxChimp.translations.eng = {
          submit: "Submitting...",
