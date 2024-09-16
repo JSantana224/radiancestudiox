@@ -830,35 +830,19 @@
      });
      $('.chosen-select').selectbox();
      //   mailchimp------------------
-     // Initialize the phone number mask
-        var phoneMask = IMask(
-            document.getElementById('phone'), {
-                mask: '(000) 000-0000'
-            }
-        );
-
-        // Handle form submission
-        document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-          
-          fetch('https://api.web3forms.com/submit', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            },
-            body: json
-        })
-        .then(async (response) => {
-            let json = await response.json();
-            if (response.status == 200) {
-                alert('Form submitted!');
-            } else {
-                console.log(response);
-                alert('Something went Wrong!');
-            }
-        })  
-        });
+     $("#subscribe").ajaxChimp({
+         language: "eng",
+         url: "https://gmail.us1.list-manage.com/subscribe/post?u=1fe818378d5c129b210719d80&amp;id=a2792f681b"
+     });
+     $.ajaxChimp.translations.eng = {
+         submit: "Submitting...",
+         0: '<i class="fa fa-check"></i> We will be in touch soon!',
+         1: '<i class="fa fa-warning"></i> You must enter a valid e-mail address.',
+         2: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+         3: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+         4: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+         5: '<i class="fa fa-warning"></i> E-mail address is not valid.'
+     };
      //   Video------------------
      var v = $(".background-youtube-bg").data("vid");
      var f = $(".background-youtube-bg").data("mv");
