@@ -212,27 +212,32 @@
                 <div class="sb-widget-wrap fl-wrap">
                     <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
                     <div class="sb-widget  fl-wrap">
-                        <p>Our free monthly newsletter informs you about new products and current developments.</p>
-                        <div class="subcribe-form fl-wrap">
-                            <head> 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/imask"></script>
-    <style>
-        /* Additional styles if needed */
-    </style>
-</head>
-<body class="bg-gray-100 flex items-center justify-center h-screen">
-    <div class="bg-white p-8 square-lg shadow-lg max-w-md w-full">
-        <form id="contactForm" class="space-y-4">
-            <input type="hidden" name="access_key" value="41987379-46fe-4cd9-9758-4609b15651d8">
-            <div>
-                <label for="email" class="text-gray-700">Email</label>
-                <input type="email" id="email" name="email" placeholder="Your Email" class="mt-1 block w-full border-b border-gray-100 shadow-sm py-1 focus:outline-none focus:border-gray-500">
-            </div>
-            <div>
-                 <div>
-                <button type="submit" class="w-full bg-gray-500 text-white py-2 px-4 square-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-gold-500 focus:ring-opacity-50">
-                    Subcribe
+                        <section class="contact-section">
+  <div class="contact-intro">
+    <h2 class="contact-title">Subcribe to our Newsletter</h2>
+    <p class="contact-description">
+      Get the latest news for our projects.
+    </p>
+  </div>
+
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="41987379-46fe-4cd9-9758-4609b15651d8" />
+    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+    <input type="hidden" name="from_name" value="My Website" />
+    <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+
+   
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>
+    </div>
+    <button class="form-submit" type="submit">Subscribe</button>
+  </form>
+
+</section>
                 </button>
             </div>
         </form>
